@@ -20,7 +20,7 @@ export default function Footer() {
         {" "}
         &copy; 2021 EVENTO. All rights reserved.
       </small>
-      <ul>
+      <ul className="flex gap-x-3 sm:gap-x-8">
         {routes.map((route) => (
           <li key={route.path}>
             <Link href={route.path}>{route.name}</Link>
